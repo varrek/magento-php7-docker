@@ -16,6 +16,7 @@ Base docker environment to test magento 1.9 project on php7 with XDebug. Based o
     $ docker-compose build web
     $ docker-compose up
     ```
+
 ## Debug
 * Create 'PHP Remote Debug' configuration in PHPStorm (session key as you wish)
 * In PHPStorm go to: `Languages & Frameworks` > `PHP` > `Debug` > `DBGp Proxy` and set the following settings:
